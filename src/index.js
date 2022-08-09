@@ -5,7 +5,7 @@ import App from "./App";
 import Weather from "./Weather";
 import reportWebVitals from "./reportWebVitals";
 
-export default function () {
+function App() {
   return (
     <div className="App">
       <Weather />

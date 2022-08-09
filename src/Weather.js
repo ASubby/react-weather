@@ -46,6 +46,7 @@ export default function Weather() {
             <img
               src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
               className="float-left"
+              alt="icon"
             />
 
             <div className="float-left">
