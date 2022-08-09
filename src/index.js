@@ -1,17 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-
+import App from "./App";
 import Weather from "./Weather";
 import reportWebVitals from "./reportWebVitals";
-
-function App() {
-  return (
-    <div className="App">
-      <Weather />
-    </div>
-  );
-}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
